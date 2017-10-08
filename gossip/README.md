@@ -16,6 +16,7 @@ And test how fast gossip and push sum (s is node number and w is 1 for all nodes
 
 Input would be:
 gossip numNodes topology algorithm
+
 Where numNodes is the number of actors involved (for 2D based topologies it is round up until getting a square), topology is one of full, 2D, line, imp2D, algorithm is one of gossip, push-sum.
 
 Output is the amount of time it took to achieve convergence of the algorithm.
