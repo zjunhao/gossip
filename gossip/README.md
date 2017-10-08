@@ -3,9 +3,13 @@
 **A gossip eample using elixir** 
 
 This program builds up four kinds of topology: 
+
 line :Node only have neighbor before or after it
+
 full :Every node is the neighbor of every other node
+
 2D   :Two dimensional grid
+
 imp2D:Grid arrangement but one random other neighboor is selected from the list of all nodes 
 
 And test how fast gossip and push sum (s is node number and w is 1 for all nodes) can converge on these four topologies. You can specify your network size in command line.
