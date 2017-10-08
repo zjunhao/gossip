@@ -1,0 +1,9 @@
+{application,gossip,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"gossip"},
+              {modules,['Elixir.Gossip','Elixir.Gossip.Buildnet',
+                        'Elixir.Gossip.Node','Elixir.Gossip.Parseargs',
+                        'Elixir.Gossip.Startalg']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
