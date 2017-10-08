@@ -1,6 +1,7 @@
 # Gossip
 
-**A gossip eample using elixir**
+**A gossip eample using elixir** 
+
 This program builds up four kinds of topology: 
 line :Node only have neighbor before or after it
 full :Every node is the neighbor of every other node
